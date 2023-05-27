@@ -1,0 +1,358 @@
+/*The css file for arvo.html*/
+
+body{
+	background-color: rgb(239,239,239);
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+.underline{
+	border: 1px solid black;
+	width: 100%;
+	height:2px;
+	background-color: black;
+	
+	
+	
+	
+}
+
+nav{
+	position: absolute; 
+	
+	position: relative;
+	height: 40px;
+	text-decoration: underline;
+}
+
+nav p{
+	
+	display:inline-block;
+	font-weight: bold;
+	position: absolute;
+	left: 10px;
+	
+	
+	
+}
+
+nav ul{
+	list-style-type:None;
+	position: absolute;
+	right: 50px;
+	
+}
+
+nav li{
+	display:inline-block;
+	margin-left: 15px;
+	
+	
+}
+
+nav a{
+	text-decoration:none;
+	color:black;
+}
+nav a:hover{
+	color: grey;
+	
+}
+.heading{
+	display: flex;
+	flex-wrap: no-wrap;
+	position: relative;
+	height:250px;
+	
+	
+	
+	
+	
+}
+
+h1{
+	
+	
+	display: inline-block;
+	font-weight: bold;
+	font-size: 150px;
+	height:200px;
+	position: absolute; 
+	top: 10px;
+	padding:0;
+	margin:0;
+	
+}
+
+.heading .text_box{
+	height: 250px;
+	width: 350px; 
+	position: absolute; 
+	right: 20px;
+
+	
+	
+}
+
+.text_container h2{
+	height:250px;
+	width: 870px;
+	margin: auto;
+	padding-top:100px;
+	
+	 
+}
+.text_box p{
+	padding:30px 15px 15px 15px;
+	
+}
+
+.text_box button{
+	width: 100px;
+	text-align:center;
+	margin-left:15px;
+	border-radius:10px;
+	
+	
+}
+
+.text_box button:hover{
+	background-color:black;
+	color:white;
+	
+	
+}
+
+.banner img{
+	
+	border-radius: 5px;
+}
+
+
+.container_2{
+	
+	display: flex;		
+}
+
+.container_3 img{
+	
+	border-radius: 7px;		
+}
+
+.box{
+	width:360px;
+	height:300px;
+	margin: auto;
+	border-radius: 5px;
+	border: 1px solid black;
+	
+	
+}
+
+.box:hover{
+	border: 2px solid black;
+}
+
+.box h2{
+	font-size: 40px;
+	margin-left: 20px;
+	padding: 0px;
+	
+	
+}
+
+.box .big_p{
+	font-weight: bold;
+	margin-left: 20px;
+	padding: 0px;
+	
+	
+}
+
+.box .small_p{
+	
+	margin-left: 20px;
+	padding: 0px;
+	
+	
+}
+.box button{
+	
+	margin-left: 20px;
+	width: 90px;
+	text-align:center;
+	
+	border-radius:10px;
+	
+	
+}
+
+.box button:hover{
+	
+	color: white;
+	background-color: black;
+	
+	
+}
+
+.housing_button{
+	margin-top: 23px;
+	
+}
+
+.urbanism_button{
+	margin-top: 23px;
+	
+}
+
+
+.container_3{
+	display: flex;
+	margin-top:50px;
+	
+	
+}
+
+.box2{
+	width: 700px;
+	height: 300px;
+	border-radius: 5px;
+	background-color:black;
+	border-radius: 7px;
+	margin: auto;
+}
+
+.box2 p{
+	font-weight: bold;
+	margin-left: 20px;
+	color:white;
+	
+	
+}
+
+.unique_button{
+	width: 100px;
+	text-align:center;
+	margin-left:15px;
+	border-radius:10px;
+	margin-top: 170px;
+	border: 1px solid white;
+}
+
+.unique_button:hover{
+	color:white;
+	background-color:grey;
+	border: 1px solid white;
+	
+}
+
+
+.box3{
+	width: 700px;
+	height: 300px;
+	margin:auto;
+	
+}
+
+.box3{
+	border-radius: 7px;	
+	
+}
+
+footer{
+	border: 1px solid black;
+	min-height: 100px;
+	
+	margin-top: 55px;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	background-color: black;
+}
+
+.footer_buttons{
+	height:30px;
+	
+}
+.footer_buttons2{
+	display: inline-block;
+	margin-left: 500px;
+	
+}
+
+.footer_buttons2 button{
+	
+	background-color:black;
+	text-align:center;
+	margin-left:15px;
+	border-radius:25px;
+	border: 2px solid white;
+	color: white;
+}
+
+.footer_buttons2 button:hover{
+	
+	background-color:grey;
+}
+
+.footer_div_container_1,.footer_div_container_2{
+	display: flex;
+	flex-wrap: no-wrap;
+	justify-content: center;
+	
+	
+	
+}
+.footerbox1,.footerbox4{
+	width: 500px;
+	height:250px;
+	border: 1px solid white;
+	padding-left: 10px;
+	
+}
+
+.footerbox2,.footerbox5{
+	width: 300px;
+	height:250px;
+	border: 1px solid white;
+	padding-left: 10px;
+}
+
+.footerbox3,.footerbox6{
+	width: 220px;
+	height:250px;
+	border: 1px solid white;
+	padding-left: 10px;
+}
+
+.bold_footer_p{
+	font-weight: bold;
+	color: white;
+	
+}
+
+.grey_news{
+	color:grey;
+}
+
+.date{
+	color: grey;
+	margin-top: 100px;
+}
+
+.footer_grey{
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	height: 20px;
+	color: black;
+	background-color: rgb(239,239,239);
+	margin: auto;
+	display: flex;
+}
+
+.footer_grey span{
+	margin: auto;
+}
+
+
+
+
